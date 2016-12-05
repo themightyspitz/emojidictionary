@@ -76,6 +76,10 @@
                             <constraint firstItem="wfi-FS-H0d" firstAttribute="centerX" secondItem="ua7-2v-uPg" secondAttribute="centerX" id="CQc-yO-67A"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="definitionLabel" destination="QXK-ur-1Yn" id="yFW-ah-G3R"/>
+                        <outlet property="emojiLabel" destination="wfi-FS-H0d" id="3r4-mT-rB6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4O-2L-tX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
